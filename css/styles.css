@@ -82,6 +82,12 @@ ol {
     color: #2e2f42;
     text-decoration: none;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus {
+    color: #404bbf;
 }
 
 .studio-link {
@@ -97,11 +103,6 @@ ol {
     height: 4px;
     border-radius: 2px;
     background-color: #404bbf;
-}
-
-.nav-menu-link:hover,
-.nav-menu-link:focus {
-    color: #404bbf;
 }
 
 address {
@@ -123,6 +124,7 @@ address {
 .contacts-link {
     color: #434455;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover,
@@ -170,6 +172,7 @@ address {
     border: 0;
     border-radius: 4px;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -299,12 +302,40 @@ address {
     margin-bottom: 0;
 }
 
+.portfolio-item:hover .portfolio-item-cover {
+    transform: translateY(-100%);
+}
+
 .portfolio-list {
     display: flex;
     gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
     list-style-type: none;
+}
+
+.portfolio-item-img-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item-cover {
+    position: absolute;
+    background-color: #4d5ae5;
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 100%;
+    transform: translateY(0);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item-cover-text {
+    color: #f4f4fd;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02px;
 }
 
 .portfolio-item-text-box {
