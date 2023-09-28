@@ -213,10 +213,10 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 112px;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  height: 112px;
   margin-bottom: 8px;
 }
 
