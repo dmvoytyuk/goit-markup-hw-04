@@ -322,7 +322,7 @@ address {
 }
 
 .team-icon-back:hover,
-.team-icon-back:active {
+.team-icon-back:focus {
   background-color: #404bbf;
 }
 
@@ -489,7 +489,6 @@ address {
 }
 
 .footer-social-link:hover,
-.footer-social-link:focus,
-.footer-social-link:active {
+.footer-social-link:focus {
   background-color: #31d0aa;
 }
