@@ -468,6 +468,7 @@ address {
   display: flex;
   gap: 16px;
   align-items: center;
+  list-style: none;
 }
 
 .footer-icon {
