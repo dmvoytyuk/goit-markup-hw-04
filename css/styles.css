@@ -341,8 +341,8 @@ address {
   margin-bottom: 0;
 }
 
-.portfolio-item:hover .portfolio-item-cover {
-  transform: translateY(-100%);
+.portfolio-item:hover .portfolio-item-cover-text {
+  transform: translateY(0);
 }
 
 .portfolio-item:hover {
@@ -364,7 +364,7 @@ address {
   overflow: hidden;
 }
 
-.portfolio-item-cover {
+/* .portfolio-item-cover {
   position: absolute;
   background-color: #4d5ae5;
   padding-top: 40px;
@@ -373,14 +373,22 @@ address {
   height: 100%;
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .portfolio-item-cover-text {
+  position: absolute;
+  background-color: #4d5ae5;
+  top: 0;
+  height: 100%;
+  width: 100%;
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-text-box {
