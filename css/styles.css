@@ -144,8 +144,9 @@ address {
     url("../images/people-office.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
   padding: 188px 0;
+  max-width: 1440px;
 }
 
 .hero-text {
@@ -175,6 +176,7 @@ address {
   border: 0;
   border-radius: 4px;
   margin: 0 auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
