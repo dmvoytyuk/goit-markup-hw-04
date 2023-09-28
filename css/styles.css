@@ -240,8 +240,8 @@ address {
     list-style-type: none;
 }
 
-.team-list img {
-}
+/* .team-list img {
+} */
 
 .team-item {
     width: calc((100% - 3 * 24px) / 4);
