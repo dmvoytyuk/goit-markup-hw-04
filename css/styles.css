@@ -421,7 +421,10 @@ address {
 .footer-wrap {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.footer-left {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -486,6 +489,7 @@ address {
 }
 
 .footer-social-link:hover,
+.footer-social-link:focus,
 .footer-social-link:active {
   background-color: #31d0aa;
 }
