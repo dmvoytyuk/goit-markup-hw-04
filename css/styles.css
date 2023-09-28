@@ -204,6 +204,9 @@ address {
     width: calc((100% - 3 * 24px) / 4);
 }
 
+.studio-icon {
+}
+
 .studio-item-title {
     color: #2e2f42;
     font-size: 20px;
