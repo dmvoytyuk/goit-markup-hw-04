@@ -306,15 +306,24 @@ address {
 .team-icon {
   fill: #f4f4fd;
 }
-
+.team-icon-item {
+  width: 40px;
+  height: 40px;
+}
 .team-icon-back {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  width: 100%;
+  height: 100%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-icon-back:hover,
+.team-icon-back:active {
+  background-color: #404bbf;
 }
 
 .portfolio {
