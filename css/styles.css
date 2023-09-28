@@ -364,17 +364,6 @@ address {
   overflow: hidden;
 }
 
-/* .portfolio-item-cover {
-  position: absolute;
-  background-color: #4d5ae5;
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
-  height: 100%;
-  transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
 .portfolio-item-cover-text {
   position: absolute;
   background-color: #4d5ae5;
@@ -422,6 +411,7 @@ address {
 
 .footer-wrap {
   display: flex;
+  align-items: baseline;
   gap: 120px;
 }
 
@@ -463,6 +453,7 @@ address {
 .footer-icon-box {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 .footer-icon {
